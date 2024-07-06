@@ -23,7 +23,7 @@ const Footer = (props) => {
             <div className='Footer-main'>
                 <div className="footer-box">
                     <div className="footer-item">
-                        <h5>Godrej 103</h5>
+                        <h5>Godrej Sector 103</h5>
                         {/* <img src={footerimg} alt="Godrej 103 " /> */}
                         {/* <p>RERA No.: HARERA/GGM/808/540/2024/35 </p> */}
                     </div>

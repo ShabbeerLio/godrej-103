@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import "./Navbar.css"
 // import Logo from "../../Assets/logo1.png"
 import { Link } from 'react-router-dom';
-import { IoLogoWhatsapp } from "react-icons/io5";
+// import { IoLogoWhatsapp } from "react-icons/io5";
 import FormFloat from './FormFloat';
 
 const Navbar = (props) => {
@@ -70,7 +70,7 @@ const Navbar = (props) => {
                                         to="/"
                                         // onClick={() => handleLinkClick('/')}
                                     >
-                                        <h5>Godrej 103</h5>
+                                        <h5>Godrej Sector 103</h5>
                                         {/* <img src={Logo} alt="grandthum bhutani" /> */}
                                     </Link>
                                 </div>

@@ -9,7 +9,7 @@ const About = (props) => {
     return (
         <div className="aboutUs">
             <div className="about-title">
-                <h1>Godrej 103</h1>
+                <h1>Godrej Sector 103 Gurgaon</h1>
                 {/* <p>RERA No.: HARERA/GGM/808/540/2024/35 </p> */}
                 <span>3 , 3.5 & 4.5 BHK APARTMENTS</span>
                 <h4>European-Inspired Architecture</h4>
@@ -18,8 +18,8 @@ const About = (props) => {
                 <div className="about-items">
                     <div className="about-left">
                         <div className="about-detail">
-                            <h3>Welcome to Godrej 103 Gurgaon - Your Gateway to Luxurious Living</h3>
-                            <p>Welcome to Godrej 103 Gurgaon, a premier destination for luxury living in Sector 103, Gurgaon. We are committed to providing a charming and tranquil lifestyle through our meticulously designed 2BHK, 3BHK, and 4BHK homes. Each residence is crafted with exquisite architecture and finished to international standards, ensuring comfort and elegance. Our community features beautifully landscaped lawns, a modern clubhouse, sports grounds, and children’s play areas, offering abundant recreational opportunities for all ages.</p>
+                            <h3>Welcome to Godrej Sector 103 Gurgaon - Your Gateway to Luxurious Living</h3>
+                            <p>Welcome to Godrej Sector 103 Gurgaon, a premier destination for luxury living in Sector 103, Gurgaon. We are committed to providing a charming and tranquil lifestyle through our meticulously designed 2BHK, 3BHK, and 4BHK homes. Each residence is crafted with exquisite architecture and finished to international standards, ensuring comfort and elegance. Our community features beautifully landscaped lawns, a modern clubhouse, sports grounds, and children’s play areas, offering abundant recreational opportunities for all ages.</p>
                             <p> We prioritize your safety and well-being with 24/7 smart security and a sustainable living environment. Conveniently situated near the Dwarka Expressway, our homes provide excellent road connectivity to key locations, making commuting hassle-free. At Godrej 103 Gurgaon, we blend luxury with convenience, offering an unparalleled living experience. Join us and experience the perfect balance of sophistication and practicality in a serene, well-connected setting.</p>
                         </div>
                         <div className="about-button">
