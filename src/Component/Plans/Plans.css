@@ -33,11 +33,11 @@
     border-radius: 8px;
 } */
 .plans-card-title p{
-    color: black;
+  color: white;
     margin-top: 1rem;
 }
 .plans-card-title span{
-    color: black;
+  color: white;
     margin-top: 1rem;
     font-size: 25px;
     font-weight: 600;
@@ -50,7 +50,8 @@
   text-align: center;
   border-radius: 8px;
   padding: 2rem;
-  background-color: #fedb73;
+  background-color: #255c37;
+  color: white;
 }
 
 @media (min-width: 1200px) {

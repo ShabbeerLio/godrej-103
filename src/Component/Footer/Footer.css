@@ -32,6 +32,9 @@
   border-radius: 8px;
 }
 
+.footer-item h5 {
+  font-size: 30px;
+}
 .footer-item ul {
   display: flex;
   align-items: center;

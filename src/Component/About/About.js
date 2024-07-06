@@ -1,6 +1,6 @@
 import React from 'react'
 import "./About.css"
-import Aboutimg from "../../Assets/About/about.jpg"
+import Aboutimg from "../../Assets/About/about.webp"
 import { Link } from 'react-router-dom'
 
 const About = (props) => {
@@ -10,20 +10,20 @@ const About = (props) => {
         <div className="aboutUs">
             <div className="about-title">
                 <h1>Godrej 103</h1>
-                <p>RERA No.: HARERA/GGM/808/540/2024/35 </p>
-                <span>3 & 4 BHK APARTMENTS</span>
+                {/* <p>RERA No.: HARERA/GGM/808/540/2024/35 </p> */}
+                <span>3 , 3.5 & 4.5 BHK APARTMENTS</span>
                 <h4>European-Inspired Architecture</h4>
             </div>
             <div className="about-main">
                 <div className="about-items">
                     <div className="about-left">
                         <div className="about-detail">
-                            <h3>About Sobha Aranya at Karma Lakelands Sec 80, Gurugram</h3>
-                            <p>The New Launch in Sector 103 by Godrej launching Premium 3, 3.5 & 4.5 BHK perfectly located near the Dwarka Expressway, offering excellent connectivity to Delhi and its surrounds. This development features modern towers with spacious, light-filled apartments and top-tier amenities such as a large clubhouse and lush green spaces. With advanced security measures in place, it promises a secure, upscale living experience for homebuyers and investors alike.</p>
-                            <p> Spanning over 31.28 acres (126590.52 sq. mtr.), this eco-luxe haven beckons to the discerning few who seek a harmonious blend of urban comforts and natural abundance. Phase 1 of Sobha Aranya, spanning 14.81 acres (59964.16 sq. mtr.), is a masterful embodiment of this ethos. Here, amidst lush greenery and panoramic views of forests and golf courses, stand five towers exuding elegance and serenity. Each tower is meticulously designed to offer residents not just a home, but a sanctuary where they can immerse themselves in the embrace of nature while enjoying the conveniences of modern living.</p>
+                            <h3>Welcome to Godrej 103 Gurgaon - Your Gateway to Luxurious Living</h3>
+                            <p>Welcome to Godrej 103 Gurgaon, a premier destination for luxury living in Sector 103, Gurgaon. We are committed to providing a charming and tranquil lifestyle through our meticulously designed 2BHK, 3BHK, and 4BHK homes. Each residence is crafted with exquisite architecture and finished to international standards, ensuring comfort and elegance. Our community features beautifully landscaped lawns, a modern clubhouse, sports grounds, and children’s play areas, offering abundant recreational opportunities for all ages.</p>
+                            <p> We prioritize your safety and well-being with 24/7 smart security and a sustainable living environment. Conveniently situated near the Dwarka Expressway, our homes provide excellent road connectivity to key locations, making commuting hassle-free. At Godrej 103 Gurgaon, we blend luxury with convenience, offering an unparalleled living experience. Join us and experience the perfect balance of sophistication and practicality in a serene, well-connected setting.</p>
                         </div>
                         <div className="about-button">
-                            <Link to='tel: +919999999999'>
+                            <Link to='tel: +917011653133'>
                                 <svg width="1em" height="1em" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" {...props}>
                                     <g fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2">
                                         <path strokeDasharray="64" strokeDashoffset="64" d="M8 3C8.5 3 10.5 7.5 10.5 8C10.5 9 9 10 8.5 11C8 12 9 13 10 14C10.3943 14.3943 12 16 13 15.5C14 15 15 13.5 16 13.5C16.5 13.5 21 15.5 21 16C21 18 19.5 19.5 18 20C16.5 20.5 15.5 20.5 13.5 20C11.5 19.5 10 19 7.5 16.5C5 14 4.5 12.5 4 10.5C3.5 8.5 3.5 7.5 4 6C4.5 4.5 6 3 8 3Z">
@@ -44,12 +44,12 @@ const About = (props) => {
                                         </path>
                                     </g>
                                 </svg>
-                                Call Now :- 9999999999
+                                Call Now :- 7011653133
                             </Link>
                         </div>
                     </div>
                     <div className="about-right">
-                        <img className="image2" src={Aboutimg} alt="Sobha Aranya " />
+                        <img className="image2" src={Aboutimg} alt="Godrej 103 " />
                     </div>
                 </div>
             </div>

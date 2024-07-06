@@ -80,7 +80,7 @@
   position: absolute;
   height: 2px;
   width: 100%;
-  background: #fedb73;
+  background: #50C878;
   border-radius: 1px;
   opacity: 1;
   left: 0;
@@ -154,8 +154,8 @@
 }
 
 .navbar-light .navbar-nav .nav-link.active {
-  color: #fedb73; /* Blue color */
-  border-bottom: 2px solid #fedb73; /* Underline */
+  color: #255c37; /* Blue color */
+  border-bottom: 2px solid #255c37; /* Underline */
 }
 
 .call-button p {
@@ -181,27 +181,13 @@
 
 .call-button p a {
   text-decoration: none;
-  color: black;
+  color: #255c37;
 }
 .call-button p a svg {
   font-size: 25px;
   margin-right: 8px;
 }
-/* .call-button p:hover {
-    background-color: #5277bc;
-  } */
 
-.navbar-nav .dropdown-menu {
-  background-color: #383535;
-  border-top: 1px solid red;
-  border-radius: 0px;
-  top: 97%;
-  padding: 0;
-}
-
-.nav-menu ul li a:hover {
-  color: black !important;
-}
 
 .dropdown-menu {
   display: none;
@@ -223,7 +209,7 @@
 }
 
 .fix-icon a {
-  color: black;
+  color: white;
   cursor: pointer;
   height: 50px;
   width: 50px;
@@ -244,7 +230,7 @@
   height: 50px;
   width: 50px;
   border-radius: 50%;
-  background-color: #25d366;
+  background-color: #50C878;
   animation: shine 2s infinite;
   z-index: -1;
 }
@@ -256,11 +242,11 @@
 
 .fix-icon-call {
   position: fixed;
-  bottom: 10%;
+  bottom: 2%;
   right: 2%;
 }
 .fix-icon-call a {
-  color: black;
+  color: white;
   cursor: pointer;
   height: 50px;
   width: 50px;
@@ -268,7 +254,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #fedb73;
+  background-color: #255c37;
   margin-bottom: 8px;
   z-index: 1;
 }
@@ -280,7 +266,7 @@
   height: 50px;
   width: 50px;
   border-radius: 50%;
-  background-color: #fedb73;
+  background-color: #255c37;
   animation: shine 2s infinite;
   z-index: -1;
 }
@@ -296,9 +282,9 @@
 }
 
 .fix-icon-enquery p {
-  background-color: #fedb73;
+  background-color: #255c37 ;
   padding: 12px 24px;
-  color: black;
+  color: white;
   border-radius: 8px;
   margin: 0;
   cursor: pointer;
@@ -306,7 +292,7 @@
   transition: 0.3s ease-in-out;
 }
 .fix-icon-enquery p:hover {
-  background-color: #fedb73;
+  background-color: #50C878 ;
   color: black;
 }
 

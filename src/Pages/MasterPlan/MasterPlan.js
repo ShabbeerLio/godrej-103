@@ -1,7 +1,8 @@
 import React, { useEffect } from 'react'
 import "./MasterPlan.css"
-import masterimg from "../../Assets/masterplan.jpg"
+// import masterimg from "../../Assets/masterplan.jpg"
 import { useLocation } from 'react-router-dom';
+import Form from '../../Component/Form/Form';
 
 const MasterPlan = (props) => {
 
@@ -57,14 +58,18 @@ const MasterPlan = (props) => {
     }, [props.title, props.descriptions, location.pathname]);
     
     return (
-        <div className='MasterPlan'>
-            <div className='MasterPlan-main'>
-                <div className="Page-title">
-                    <h1>Sobha Aranya Master Plan</h1>
+        <div className='SiteVisit'>
+        <div className='SiteVisit-main'>
+            <div className="Page-title">
+                <h1>Sector 103 Master Plan ON REQUEST</h1>
+            </div>
+            <div className="sitevisit-box">
+                <div className="sitevisit-item">
+                    <Form heading={"Intrested in Sector 103"} btntxt={"Book A Site Visit"} />
                 </div>
-                <img src={masterimg} alt="Sobha Aranya" />
             </div>
         </div>
+    </div>
     )
 }
 

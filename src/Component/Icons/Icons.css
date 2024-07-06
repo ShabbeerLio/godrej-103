@@ -14,22 +14,23 @@
 
 .icons-box {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
   text-align: center;
 }
 
 .icon-card {
-  background-color: #fedb73;
+  background-color: #255c37;
   border-radius: 8px;
   padding: 2rem;
 }
 .icon-card img {
-  width: 50%;
+  width: 30%;
   object-fit: cover;
+  filter: invert(1);
 }
 .icon-card p {
-  color: black;
+  color: white;
   margin: 0;
   padding-top: 1rem;
 }

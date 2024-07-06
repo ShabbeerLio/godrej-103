@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import "./HGallery.css"
 import GalleryData from './GalleryData'
-import { Link } from 'react-router-dom'
 import FormFloat from '../Navbar/FormFloat'
 
 const HGallery = () => {
@@ -15,17 +14,17 @@ const HGallery = () => {
         setFormopen(false);
     };
 
-    const handleClick = () => {
-        window.scrollTo({
-            top: 0,
-            behavior: 'auto'
-        });
-    }
+    // const handleClick = () => {
+    //     window.scrollTo({
+    //         top: 0,
+    //         behavior: 'auto'
+    //     });
+    // }
 
     return (
         <div className='HGallery'>
             <div className='HGallery-main'>
-                <h3>Sobha Aranya's Gallery</h3>
+                <h3>Godrej 103 Gallery</h3>
                 <div className="hgallery-box">
                     {GalleryData.slice(0, 8).map((item) => (
                         <img src={item.cover} alt={item.alttag} onClick={formIsOpen} />

@@ -1,35 +1,27 @@
 const HighlightsData = [
     {
         id: 1,
-        detail: "Low rise density and all Karma Golf Facing Apartments.",
+        detail: "Elite Clubhouse: A grand clubhouse awaits for memorable gatherings.",
     },
     {
         id: 2,
-        detail: "Previously, Club: A Luxurious Clubhouse Measuring up to 70000 sq. Ft. A great place with world class facilities.",
+        detail: "Prime Location: Steps away from top commercials, malls, schools, and more.",
     },
     {
         id: 3,
-        detail: "Total 5 High Rise Tower having G+43 Floor and 5 Wing of G+43 Floor.",
+        detail: "Sophisticated Clubhouse & Well-Equipped Gymnasium.",
     },
     {
         id: 4,
-        detail: "Situated at 31 acres of the Land Parcel; Total Karma Lakeland comprises of 270 acres of the land.",
+        detail: "24-hour Security with CCTV & Controlled Access.",
     },
     {
         id: 5,
-        detail: "1st Phase Launching will have 524 Apartments with benefits.",
+        detail: "Convenience: On-site convenience store, multipurpose hall, and proximity to major business hubs, schools, and hospitals.",
     },
     {
         id: 6,
-        detail: "Operational 9 Hole Golf",
-    },
-    {
-        id: 7,
-        detail: "Ground With Viewing Gallery.",
-    },
-    {
-        id: 8,
-        detail: "The establishment is a fully functional signature club resort.",
+        detail: "Green Spaces: Beautifully landscaped lawns, thematic gardens, and open areas for relaxation.",
     },
 ]
 

@@ -57,11 +57,11 @@ const FloorPlan = (props) => {
         <div className='SiteVisit'>
             <div className='SiteVisit-main'>
                 <div className="Page-title">
-                    <h1>Sobha Aranya Floor Plan ON REQUEST</h1>
+                    <h1>Sector 103 Floor Plan ON REQUEST</h1>
                 </div>
                 <div className="sitevisit-box">
                     <div className="sitevisit-item">
-                    <Form heading={"Intrested in Sobha Aranya"} btntxt={"Book A Site Visit"} />
+                    <Form heading={"Intrested in Sector 103"} btntxt={"Book A Site Visit"} />
                     </div>
                 </div>
             </div>

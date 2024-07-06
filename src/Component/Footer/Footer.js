@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import "./Footer.css"
 import { Link } from 'react-router-dom'
-import footerimg from "../../Assets/logo1.png"
+// import footerimg from "../../Assets/logo1.png"
 
 const Footer = (props) => {
 
@@ -23,20 +23,18 @@ const Footer = (props) => {
             <div className='Footer-main'>
                 <div className="footer-box">
                     <div className="footer-item">
-                        <img src={footerimg} alt="Sobha Aranya " />
-                        <p>RERA No.: HARERA/GGM/808/540/2024/35 </p>
-                    </div>
-
-                    <div className="footer-item">
+                        <h5>Godrej 103</h5>
+                        {/* <img src={footerimg} alt="Godrej 103 " /> */}
+                        {/* <p>RERA No.: HARERA/GGM/808/540/2024/35 </p> */}
                     </div>
                     <div className="footer-item">
-                        <p>Plot No. 6, Karma Lakelands, NH-8, Sector 80, Gurugram, Haryana 122002</p>
+                        <p>Plot No. 9, Daulatabad Link Rd, Sector 103, Gurugram, Haryana 122006</p>
                     </div>
                     <div className="footer-item">
                         {/* <p>info@godrejjardiniaa.com</p> */}
                     </div>
                     <div className="footer-item-call">
-                        <Link to='tel: +919999999999'>
+                        <Link to='tel: +917011653133'>
                             <svg width="1em" height="1em" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" {...props}>
                                 <g fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2">
                                     <path strokeDasharray="64" strokeDashoffset="64" d="M8 3C8.5 3 10.5 7.5 10.5 8C10.5 9 9 10 8.5 11C8 12 9 13 10 14C10.3943 14.3943 12 16 13 15.5C14 15 15 13.5 16 13.5C16.5 13.5 21 15.5 21 16C21 18 19.5 19.5 18 20C16.5 20.5 15.5 20.5 13.5 20C11.5 19.5 10 19 7.5 16.5C5 14 4.5 12.5 4 10.5C3.5 8.5 3.5 7.5 4 6C4.5 4.5 6 3 8 3Z">
@@ -57,7 +55,7 @@ const Footer = (props) => {
                                     </path>
                                 </g>
                             </svg>
-                            9999999999
+                            7011653133
                         </Link>
                     </div>
                     <div className="footer-item">
@@ -109,10 +107,10 @@ const Footer = (props) => {
                 </div>
             </div>
             {/* <div className="footer-down"> */}
-                {/* <div className="footer-copyright"> */}
-                    {/* <p>Disclaimer: This website is intended for informational purposes only and should not be considered the official site.</p> */}
-                    {/* <p>Designed by :<Link href="https://globalitsources.com/">&#160; Global IT Sources</Link></p> */}
-                {/* </div> */}
+            {/* <div className="footer-copyright"> */}
+            {/* <p>Disclaimer: This website is intended for informational purposes only and should not be considered the official site.</p> */}
+            {/* <p>Designed by :<Link href="https://globalitsources.com/">&#160; Global IT Sources</Link></p> */}
+            {/* </div> */}
             {/* </div> */}
         </div>
     )
