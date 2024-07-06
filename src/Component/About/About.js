@@ -20,7 +20,7 @@ const About = (props) => {
                         <div className="about-detail">
                             <h3>Welcome to Godrej Sector 103 Gurgaon - Your Gateway to Luxurious Living</h3>
                             <p>Welcome to Godrej Sector 103 Gurgaon, a premier destination for luxury living in Sector 103, Gurgaon. We are committed to providing a charming and tranquil lifestyle through our meticulously designed 2BHK, 3BHK, and 4BHK homes. Each residence is crafted with exquisite architecture and finished to international standards, ensuring comfort and elegance. Our community features beautifully landscaped lawns, a modern clubhouse, sports grounds, and children’s play areas, offering abundant recreational opportunities for all ages.</p>
-                            <p> We prioritize your safety and well-being with 24/7 smart security and a sustainable living environment. Conveniently situated near the Dwarka Expressway, our homes provide excellent road connectivity to key locations, making commuting hassle-free. At Godrej 103 Gurgaon, we blend luxury with convenience, offering an unparalleled living experience. Join us and experience the perfect balance of sophistication and practicality in a serene, well-connected setting.</p>
+                            <p> We prioritize your safety and well-being with 24/7 smart security and a sustainable living environment. Conveniently situated near the Dwarka Expressway, our homes provide excellent road connectivity to key locations, making commuting hassle-free. At Godrej Sector 103 Gurgaon, we blend luxury with convenience, offering an unparalleled living experience. Join us and experience the perfect balance of sophistication and practicality in a serene, well-connected setting.</p>
                         </div>
                         <div className="about-button">
                             <Link to='tel: +917011653133'>
@@ -49,7 +49,7 @@ const About = (props) => {
                         </div>
                     </div>
                     <div className="about-right">
-                        <img className="image2" src={Aboutimg} alt="Godrej 103 " />
+                        <img className="image2" src={Aboutimg} alt="Godrej Sector 103 " />
                     </div>
                 </div>
             </div>

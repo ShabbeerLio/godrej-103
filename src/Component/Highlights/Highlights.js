@@ -11,7 +11,7 @@ const Highlights = () => {
             <div className='Highlights-main'>
                 <div className="highlights-item">
                     <div className="highlights-right">
-                        <img src={high} alt="Godrej 103" />
+                        <img src={high} alt="Godrej Sector 103" />
                     </div>
                     <div className="highlights-left">
                         <h2>Project Highlights</h2>
